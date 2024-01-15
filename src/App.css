@@ -1,0 +1,67 @@
+.main-wrapper {
+  display: flex;
+  width: 360px;
+  height: 379px;
+  padding: 30px 20px 29px 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  background: #0b2434;
+  /* margin: auto; */
+}
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 320px;
+  height: 320px;
+  padding: 33.28px 34.56px 33.92px 34.56px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #f5f5f5;
+  text-align: center;
+}
+
+/* DICE STYLES */
+.dice-wrapper {
+  display: grid;
+  grid-template: auto auto / repeat(5, 1fr);
+  gap: 15px;
+}
+.dice {
+  width: 35.84px;
+  height: 35.84px;
+  flex-shrink: 0;
+  border-radius: 3.813px;
+  background: #fff;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.15);
+  color: #2b283a;
+  text-align: center;
+  font-family: Karla;
+  font-size: 20.589px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.roll-dice-btn {
+  padding: 0.75rem 1rem;
+  background-color: #5035ff;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.roll-dice-btn:focus {
+  outline: none;
+}
+
+.roll-dice-btn:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
